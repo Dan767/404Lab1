@@ -1,0 +1,46 @@
+1.
+Github URL:
+https://github.com/Dan767
+
+2.
+2.22.0
+
+3.
+2.22.0
+
+4.
+In the virtual environment, python 3 is set to the default python version.
+In the not-virtual environment, python 2 is set to default.
+
+5.
+status code 200 is returned for http://www.google.com, but status code 
+301 is returned for http://google.com (permanently moved).
+
+6.
+curl -i http://google.com/teapot also returns a 301 (moved permanently to
+http://www.google.com/teapot. This is returned by the -i and the -iL, though -iL will 
+follow the redirection to the correct address and return the status code of it as well.
+http://www.google.com/teapot has a status code of 418 I'm a Teapot.
+
+
+7.
+In the first:
+
+<H3>Form Contents:</H3>
+<P>No form fields.
+<DL>
+</DL>
+
+And in the second:
+
+<H3>Form Contents:</H3>
+<DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
+</DL>
+
+By default, CURL sends a get request - in the second, we are sending a POST request instead.
+This sends the "X=Y" assignment, which is then stored in the form.
+
+8.
+

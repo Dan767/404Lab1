@@ -40,7 +40,8 @@ And in the second:
 </DL>
 
 By default, CURL sends a get request - in the second, we are sending a POST request instead.
-This sends the "X=Y" assignment, which is then stored in the form.
+This sends the "X=Y" assignment, which is then stored in the form.  The POST request is used 
+to post, or send, form data to the target.
 
 8.
 

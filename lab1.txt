@@ -10,7 +10,9 @@ https://github.com/Dan767
 
 4.
 In the virtual environment, python 3 is set to the default python version.
-In the not-virtual environment, python 2 is set to default.
+In the not-virtual environment, python 2 is set to default.  Using the virtual
+environment, we can control certain factors exclusive to the venv (such as python
+version used!).
 
 5.
 status code 200 is returned for http://www.google.com, but status code 
@@ -44,4 +46,4 @@ This sends the "X=Y" assignment, which is then stored in the form.  The POST req
 to post, or send, form data to the target.
 
 8.
-https://raw.githubusercontent.com/Dan767/404Lab1/master/lab1.py
+https://raw.githubusercontent.com/Dan767/404Lab1/master/404Lab1.py
